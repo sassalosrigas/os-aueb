@@ -48,8 +48,6 @@ int get_time_dif(struct timespec start, struct timespec end) {
 
 void* customer_call(void* arg) {
     int customer_id = *(int*)arg;
-    struct timespec order_start_time;
-    clock_gettime(CLOCK_REALTIME, &order_start_time);
     
     unsigned int seed = time(NULL) + customer_id;
     int order_time = rand_r(&seed) % (Torderhigh - Torderlow + 1) + Torderlow;
@@ -74,6 +72,9 @@ void* customer_call(void* arg) {
     order.id = customer_id;
     order.num_pizzas = num_pizzas;
     order.total_price = 0;
+    
+    struct timespec order_start_time;
+    clock_gettime(CLOCK_REALTIME, &order_start_time);
     order.order_start_time = order_start_time;
     
     for (int i = 0; i < num_pizzas; i++) {
@@ -103,6 +104,7 @@ void* customer_call(void* arg) {
         printf("Order with number %d submitted.\n", customer_id);
         pthread_mutex_lock(&pizzaShop.revenue_mutex);
         pizzaShop.revenue += order.total_price;
+        pizzaShop.successful_orders++;
         pthread_mutex_unlock(&pizzaShop.revenue_mutex);
         
         for (int i = 0; i < num_pizzas; i++) {
