@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <time.h>
+#include <pthread.h>
 
 PizzaShop pizzaShop;
 
@@ -48,9 +49,10 @@ int get_time_dif(struct timespec start, struct timespec end) {
 void* customer_call(void* arg) {
     int customer_id = *(int*)arg;
     struct timespec order_start_time;
-    clock_gettime(CLOCK_MONOTONIC, &order_start_time);
+    clock_gettime(CLOCK_REALTIME, &order_start_time);
     
-    int order_time = rand() % (Torderhigh - Torderlow + 1) + Torderlow;
+    unsigned int seed = time(NULL) + customer_id;
+    int order_time = rand_r(&seed) % (Torderhigh - Torderlow + 1) + Torderlow;
     sleep(order_time);
     
     int operator_id;
@@ -67,7 +69,7 @@ void* customer_call(void* arg) {
         }
     }
     
-    int num_pizzas = rand() % (Norderhigh - Norderlow + 1) + Norderlow;
+    int num_pizzas = rand_r(&seed) % (Norderhigh - Norderlow + 1) + Norderlow;
     Order order;
     order.id = customer_id;
     order.num_pizzas = num_pizzas;
@@ -75,7 +77,7 @@ void* customer_call(void* arg) {
     order.order_start_time = order_start_time;
     
     for (int i = 0; i < num_pizzas; i++) {
-        float r = (float)rand() / RAND_MAX;
+        float r = (float)rand_r(&seed) / RAND_MAX;
         if (r < Pm) {
             order.pizzas[i].type = 0;
             order.total_price += Cm;
@@ -88,12 +90,15 @@ void* customer_call(void* arg) {
         }
     }
     
-    int payment_time = rand() % (Tpaymenthigh - Tpaymentlow + 1) + Tpaymentlow;
+    int payment_time = rand_r(&seed) % (Tpaymenthigh - Tpaymentlow + 1) + Tpaymentlow;
     sleep(payment_time);
     
-    float payment_fail = (float)rand() / RAND_MAX;
+    float payment_fail = (float)rand_r(&seed) / RAND_MAX;
     if (payment_fail < Pfail) {
         printf("Order with number %d failed.\n", customer_id);
+        pthread_mutex_lock(&pizzaShop.revenue_mutex);
+        pizzaShop.failed_orders++;
+        pthread_mutex_unlock(&pizzaShop.revenue_mutex);
     } else {
         printf("Order with number %d submitted.\n", customer_id);
         pthread_mutex_lock(&pizzaShop.revenue_mutex);
@@ -125,7 +130,7 @@ void* customer_call(void* arg) {
         }
         
         struct timespec bake_start_time;
-        clock_gettime(CLOCK_MONOTONIC, &bake_start_time);
+        clock_gettime(CLOCK_REALTIME, &bake_start_time);
         
         for (int i = 0; i < num_pizzas; i++) {
             pthread_mutex_lock(&pizzaShop.oven_mutex[i]);
@@ -134,7 +139,7 @@ void* customer_call(void* arg) {
         sleep(Tbake);
         
         struct timespec bake_end_time;
-        clock_gettime(CLOCK_MONOTONIC, &bake_end_time);
+        clock_gettime(CLOCK_REALTIME, &bake_end_time);
         
         for (int i = 0; i < num_pizzas; i++) {
             pthread_mutex_unlock(&pizzaShop.oven_mutex[i]);
@@ -161,13 +166,13 @@ void* customer_call(void* arg) {
         }
         
         struct timespec pack_end_time;
-        clock_gettime(CLOCK_MONOTONIC, &pack_end_time);
+        clock_gettime(CLOCK_REALTIME, &pack_end_time);
         
-        int delivery_time = rand() % (Tdelhigh - Tdellow + 1) + Tdellow;
+        int delivery_time = rand_r(&seed) % (Tdelhigh - Tdellow + 1) + Tdellow;
         sleep(delivery_time);
         
         struct timespec delivery_end_time;
-        clock_gettime(CLOCK_MONOTONIC, &delivery_end_time);
+        clock_gettime(CLOCK_REALTIME, &delivery_end_time);
         
         int preparation_time = get_time_dif(order.order_start_time, pack_end_time) / 1000;
         printf("The order with the number %d was prepared in %d minutes\n", customer_id, preparation_time);
