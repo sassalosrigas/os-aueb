@@ -1,0 +1,86 @@
+Order with number 2 submitted.
+Order with number 7 submitted.
+The order with the number 2 was prepared in 13 minutes
+The order with the number 2 was delivered in 24 minutes
+Order with number 12 submitted.
+The order with the number 7 was prepared in 26 minutes
+The order with the number 7 was delivered in 36 minutes
+The order with the number 12 was prepared in 17 minutes
+The order with the number 12 was delivered in 32 minutes
+Order with number 17 submitted.
+The order with the number 17 was prepared in 16 minutes
+The order with the number 17 was delivered in 29 minutes
+Order with number 22 submitted.
+The order with the number 22 was prepared in 21 minutes
+The order with the number 22 was delivered in 34 minutes
+Order with number 27 submitted.
+The order with the number 27 was prepared in 18 minutes
+The order with the number 27 was delivered in 29 minutes
+Order with number 32 submitted.
+The order with the number 32 was prepared in 18 minutes
+The order with the number 32 was delivered in 26 minutes
+Order with number 37 failed.
+Order with number 42 submitted.
+The order with the number 42 was prepared in 19 minutes
+The order with the number 42 was delivered in 34 minutes
+Order with number 52 submitted.
+The order with the number 52 was prepared in 15 minutes
+The order with the number 52 was delivered in 20 minutes
+Order with number 47 submitted.
+The order with the number 47 was prepared in 19 minutes
+The order with the number 47 was delivered in 31 minutes
+Order with number 57 submitted.
+The order with the number 57 was prepared in 22 minutes
+The order with the number 57 was delivered in 32 minutes
+Order with number 62 submitted.
+The order with the number 62 was prepared in 22 minutes
+The order with the number 62 was delivered in 37 minutes
+Order with number 67 submitted.
+The order with the number 67 was prepared in 17 minutes
+The order with the number 67 was delivered in 23 minutes
+Order with number 72 submitted.
+The order with the number 72 was prepared in 13 minutes
+The order with the number 72 was delivered in 21 minutes
+Order with number 77 submitted.
+The order with the number 77 was prepared in 15 minutes
+The order with the number 77 was delivered in 26 minutes
+Order with number 87 submitted.
+The order with the number 87 was prepared in 16 minutes
+The order with the number 87 was delivered in 23 minutes
+Order with number 82 submitted.
+The order with the number 82 was prepared in 20 minutes
+The order with the number 82 was delivered in 27 minutes
+Order with number 92 submitted.
+The order with the number 92 was prepared in 15 minutes
+The order with the number 92 was delivered in 21 minutes
+Order with number 97 failed.
+Order with number 5 submitted.
+The order with the number 5 was prepared in 15 minutes
+The order with the number 5 was delivered in 24 minutes
+Order with number 10 submitted.
+The order with the number 10 was prepared in 14 minutes
+The order with the number 10 was delivered in 25 minutes
+Order with number 15 submitted.
+The order with the number 15 was prepared in 21 minutes
+The order with the number 15 was delivered in 31 minutes
+Order with number 20 submitted.
+The order with the number 20 was prepared in 15 minutes
+The order with the number 20 was delivered in 23 minutes
+Order with number 25 submitted.
+The order with the number 25 was prepared in 17 minutes
+The order with the number 25 was delivered in 24 minutes
+Order with number 30 submitted.
+The order with the number 30 was prepared in 22 minutes
+The order with the number 30 was delivered in 27 minutes
+Order with number 35 submitted.
+The order with the number 35 was prepared in 17 minutes
+The order with the number 35 was delivered in 23 minutes
+Order with number 40 submitted.
+The order with the number 40 was prepared in 17 minutes
+The order with the number 40 was delivered in 30 minutes
+Order with number 45 submitted.
+The order with the number 45 was prepared in 14 minutes
+The order with the number 45 was delivered in 24 minutes
+Order with number 50 submitted.
+The order with the number 50 was prepared in 19 minutes
+The order with the number 50 was delivered i
