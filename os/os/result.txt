@@ -83,4 +83,218 @@ The order with the number 45 was prepared in 14 minutes
 The order with the number 45 was delivered in 24 minutes
 Order with number 50 submitted.
 The order with the number 50 was prepared in 19 minutes
-The order with the number 50 was delivered i
+The order with the number 50 was delivered in 34 minutes
+Order with number 55 submitted.
+The order with the number 55 was prepared in 19 minutes
+The order with the number 55 was delivered in 32 minutes
+Order with number 60 submitted.
+The order with the number 60 was prepared in 15 minutes
+The order with the number 60 was delivered in 24 minutes
+Order with number 65 submitted.
+The order with the number 65 was prepared in 23 minutes
+The order with the number 65 was delivered in 36 minutes
+Order with number 70 submitted.
+The order with the number 70 was prepared in 21 minutes
+The order with the number 70 was delivered in 27 minutes
+Order with number 75 submitted.
+The order with the number 75 was prepared in 19 minutes
+The order with the number 75 was delivered in 31 minutes
+Order with number 80 submitted.
+The order with the number 80 was prepared in 14 minutes
+The order with the number 80 was delivered in 22 minutes
+Order with number 85 submitted.
+The order with the number 85 was prepared in 15 minutes
+The order with the number 85 was delivered in 26 minutes
+Order with number 90 submitted.
+The order with the number 90 was prepared in 20 minutes
+The order with the number 90 was delivered in 27 minutes
+Order with number 95 submitted.
+The order with the number 95 was prepared in 17 minutes
+The order with the number 95 was delivered in 29 minutes
+Order with number 100 submitted.
+The order with the number 100 was prepared in 16 minutes
+The order with the number 100 was delivered in 27 minutes
+Order with number 3 submitted.
+The order with the number 3 was prepared in 17 minutes
+The order with the number 3 was delivered in 22 minutes
+Order with number 8 submitted.
+The order with the number 8 was prepared in 17 minutes
+The order with the number 8 was delivered in 30 minutes
+Order with number 13 submitted.
+The order with the number 13 was prepared in 15 minutes
+The order with the number 13 was delivered in 24 minutes
+Order with number 18 submitted.
+The order with the number 18 was prepared in 20 minutes
+The order with the number 18 was delivered in 33 minutes
+Order with number 23 submitted.
+The order with the number 23 was prepared in 20 minutes
+The order with the number 23 was delivered in 31 minutes
+Order with number 28 submitted.
+The order with the number 28 was prepared in 15 minutes
+The order with the number 28 was delivered in 28 minutes
+Order with number 33 submitted.
+The order with the number 33 was prepared in 15 minutes
+The order with the number 33 was delivered in 27 minutes
+Order with number 38 submitted.
+The order with the number 38 was prepared in 21 minutes
+The order with the number 38 was delivered in 28 minutes
+Order with number 43 submitted.
+The order with the number 43 was prepared in 19 minutes
+The order with the number 43 was delivered in 30 minutes
+Order with number 48 submitted.
+The order with the number 48 was prepared in 19 minutes
+The order with the number 48 was delivered in 27 minutes
+Order with number 53 submitted.
+The order with the number 53 was prepared in 14 minutes
+The order with the number 53 was delivered in 24 minutes
+Order with number 58 submitted.
+The order with the number 58 was prepared in 19 minutes
+The order with the number 58 was delivered in 24 minutes
+Order with number 63 submitted.
+The order with the number 63 was prepared in 21 minutes
+The order with the number 63 was delivered in 35 minutes
+Order with number 68 submitted.
+The order with the number 68 was prepared in 16 minutes
+The order with the number 68 was delivered in 30 minutes
+Order with number 73 submitted.
+The order with the number 73 was prepared in 22 minutes
+The order with the number 73 was delivered in 37 minutes
+Order with number 78 submitted.
+The order with the number 78 was prepared in 22 minutes
+The order with the number 78 was delivered in 31 minutes
+Order with number 83 submitted.
+The order with the number 83 was prepared in 18 minutes
+The order with the number 83 was delivered in 24 minutes
+Order with number 88 submitted.
+The order with the number 88 was prepared in 14 minutes
+The order with the number 88 was delivered in 22 minutes
+Order with number 93 submitted.
+The order with the number 93 was prepared in 13 minutes
+The order with the number 93 was delivered in 24 minutes
+Order with number 98 submitted.
+The order with the number 98 was prepared in 20 minutes
+The order with the number 98 was delivered in 28 minutes
+Order with number 6 submitted.
+The order with the number 6 was prepared in 23 minutes
+The order with the number 6 was delivered in 31 minutes
+Order with number 1 failed.
+Order with number 11 submitted.
+The order with the number 11 was prepared in 19 minutes
+The order with the number 11 was delivered in 30 minutes
+Order with number 16 submitted.
+The order with the number 16 was prepared in 19 minutes
+The order with the number 16 was delivered in 27 minutes
+Order with number 21 submitted.
+The order with the number 21 was prepared in 13 minutes
+The order with the number 21 was delivered in 22 minutes
+Order with number 26 submitted.
+The order with the number 26 was prepared in 20 minutes
+The order with the number 26 was delivered in 34 minutes
+Order with number 31 submitted.
+The order with the number 31 was prepared in 20 minutes
+The order with the number 31 was delivered in 31 minutes
+Order with number 36 submitted.
+The order with the number 36 was prepared in 16 minutes
+The order with the number 36 was delivered in 23 minutes
+Order with number 41 submitted.
+The order with the number 41 was prepared in 22 minutes
+The order with the number 41 was delivered in 27 minutes
+Order with number 46 submitted.
+The order with the number 46 was prepared in 22 minutes
+The order with the number 46 was delivered in 32 minutes
+Order with number 51 submitted.
+The order with the number 51 was prepared in 19 minutes
+The order with the number 51 was delivered in 25 minutes
+Order with number 56 submitted.
+The order with the number 56 was prepared in 13 minutes
+The order with the number 56 was delivered in 20 minutes
+Order with number 61 submitted.
+The order with the number 61 was prepared in 14 minutes
+The order with the number 61 was delivered in 24 minutes
+Order with number 66 submitted.
+The order with the number 66 was prepared in 21 minutes
+The order with the number 66 was delivered in 27 minutes
+Order with number 71 submitted.
+The order with the number 71 was prepared in 21 minutes
+The order with the number 71 was delivered in 35 minutes
+Order with number 76 submitted.
+The order with the number 76 was prepared in 17 minutes
+The order with the number 76 was delivered in 25 minutes
+Order with number 81 submitted.
+The order with the number 81 was prepared in 23 minutes
+The order with the number 81 was delivered in 30 minutes
+Order with number 86 submitted.
+The order with the number 86 was prepared in 21 minutes
+The order with the number 86 was delivered in 32 minutes
+Order with number 96 submitted.
+The order with the number 96 was prepared in 14 minutes
+The order with the number 96 was delivered in 23 minutes
+Order with number 91 submitted.
+The order with the number 91 was prepared in 18 minutes
+The order with the number 91 was delivered in 30 minutes
+Order with number 4 submitted.
+The order with the number 4 was prepared in 16 minutes
+The order with the number 4 was delivered in 26 minutes
+Order with number 9 submitted.
+The order with the number 9 was prepared in 15 minutes
+The order with the number 9 was delivered in 24 minutes
+Order with number 14 submitted.
+The order with the number 14 was prepared in 22 minutes
+The order with the number 14 was delivered in 32 minutes
+Order with number 19 submitted.
+The order with the number 19 was prepared in 19 minutes
+The order with the number 19 was delivered in 25 minutes
+Order with number 29 submitted.
+The order with the number 29 was prepared in 13 minutes
+The order with the number 29 was delivered in 22 minutes
+Order with number 24 submitted.
+The order with the number 24 was prepared in 18 minutes
+The order with the number 24 was delivered in 31 minutes
+Order with number 34 submitted.
+The order with the number 34 was prepared in 20 minutes
+The order with the number 34 was delivered in 34 minutes
+Order with number 39 submitted.
+The order with the number 39 was prepared in 19 minutes
+The order with the number 39 was delivered in 31 minutes
+Order with number 44 submitted.
+The order with the number 44 was prepared in 17 minutes
+The order with the number 44 was delivered in 28 minutes
+Order with number 49 submitted.
+The order with the number 49 was prepared in 23 minutes
+The order with the number 49 was delivered in 31 minutes
+Order with number 54 submitted.
+The order with the number 54 was prepared in 21 minutes
+The order with the number 54 was delivered in 33 minutes
+Order with number 59 failed.
+Order with number 69 submitted.
+The order with the number 69 was prepared in 15 minutes
+The order with the number 69 was delivered in 26 minutes
+Order with number 64 submitted.
+The order with the number 64 was prepared in 13 minutes
+The order with the number 64 was delivered in 21 minutes
+Order with number 74 submitted.
+The order with the number 74 was prepared in 21 minutes
+The order with the number 74 was delivered in 27 minutes
+Order with number 79 submitted.
+The order with the number 79 was prepared in 15 minutes
+The order with the number 79 was delivered in 29 minutes
+Order with number 84 submitted.
+The order with the number 84 was prepared in 17 minutes
+The order with the number 84 was delivered in 29 minutes
+Order with number 89 submitted.
+The order with the number 89 was prepared in 22 minutes
+The order with the number 89 was delivered in 31 minutes
+Order with number 94 submitted.
+The order with the number 94 was prepared in 17 minutes
+The order with the number 94 was delivered in 27 minutes
+Order with number 99 submitted.
+The order with the number 99 was prepared in 17 minutes
+The order with the number 99 was delivered in 23 minutes
+Total revenue: 3155 euros
+Sales: Margherita: 103, Peperoni: 71, Special: 112
+Successful orders: 96
+Failed orders: 4
+Average service time: 27.79 minutes
+Max service time: 37 minutes
+Average cold time: 12.81 minutes
+Max cold time: 20 minutes
